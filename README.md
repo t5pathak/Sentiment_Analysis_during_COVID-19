@@ -1,13 +1,13 @@
 # Sentiments Evoked by WHO Public Health Posts during COVID-19 Pandemic: A Neural Network based Machine learning Analysis
 Since the establishment of the WHO in 1948, it has played a pivotal role in improving public health all over the world. But in 2019, with the onset of COVID-19, the WHO, for the first time, faced a pandemic of such a mamothian magnitude and global span. Spanning 220 region and with over 200 Million reported cases (as of Aug’21), it has been the biggest public health crisis since the inception of the WHO. The spread of the virus and the perceived inability of the WHO to contain it has raised many questions about its efficacy and need. Thus with the present study we attempt to explore the range of sentiment and emotions evoked by public health information posts by the WHO on its official Facebook page throughout the pandemic. 
 
-## Methods - Pipeline Representation
+# Methods
 
 <p align="center">
   <img width="644" alt="pipeline" src="https://user-images.githubusercontent.com/44245211/137946308-e01e26ff-e8c0-4a43-b012-d242faa5b5d7.png">
   </p>
 
-## Methods - Pipeline 
+## Dataset - Timeline of Facebook Posts 
 We first defined 3 timeframes of 5 months each, starting from March 2020. We choose a total of 6 posts, two posts from each timeframe. The posts were identified on the basis of their content and engagement, which addressed the primary concerns of the public in that particular time frame. The chosen posts had at least 1800 comments to ensure a tenable prediction model and to have a general sense of prevailing sentiments. 
 
 <p align="center">
@@ -30,9 +30,25 @@ We first defined 3 timeframes of 5 months each, starting from March 2020. We cho
 <p align="center">
   <img width="871" alt="data" src="https://user-images.githubusercontent.com/44245211/137949226-5bbe6f93-3128-46de-a5da-b00e91e37570.png">
   </p>
-The data was labelled into five categories which encompassed a broad range of positive and negative emotions associated with the comments. The labels are shown in the bubbles with example comments above them.
-- Angry labelled as A consisted of Hateful and angry comments
-- Concerned sentiments labelled as B consisted of negatively sarcastic comments and comments displaying emotions of concern
-- Labels D and E were associated with positive comments, with comments of agreement being labelled as D and laudatory comments showing emotions of thankfulness labelled as E.
-- Comments which included personal advice and irrelevant stats along with comments which had no remote connection to the post were labeled as C.
+The data was labelled into five categories which encompassed a broad range of positive and negative emotions associated with the comments. The labels are shown in the bubbles with example comments above them. <br />
+1.  Angry labelled as A consisted of Hateful and angry comments.<br />
+2.  Concerned sentiments labelled as B consisted of negatively sarcastic comments and comments displaying emotions of concern.<br />
+3.  Comments which included personal advice and irrelevant stats along with comments which had no remote connection to the post were labeled as C.<br />
+4.  Labels D and E were associated with positive comments, with comments of agreement being labelled as D and laudatory comments showing emotions of thankfulness labelled as E.
+
+## Data labelling - labels used
+<p align="center">
+  <img width="593" alt="nn" src="https://user-images.githubusercontent.com/44245211/137950490-3b5bdbb6-043b-4fae-b88c-b225347d610c.png">
+  </p>
+This flow diagram explains the basic working of the classifier. We hand labelled 3000 comments (1000 from each timeframe) which were used to train and test the neural network. We achieved an accuracy of 85.27%. Next we used the same, trained, neural network to sort 4420 comments from T1, 5256 from T2 and 3902 from T3.
+
+# Results
+<p align="center">
+  <img width="765" alt="res1" src="https://user-images.githubusercontent.com/44245211/137950759-9a814c03-182e-4a53-b5c3-4ef38fb1f696.png">
+  </p>
+These graphs represent the raw results from the classifier. Each graph indicating the number of posts classified in each sentiment category. Although the graphs allow us to observe domination for negative sentiments, we can’t compare the results across time periods. Hence, we use another metric - percentage of posts.
+
+### Sentiment Evolution - percentage of posts
+<img width="607" alt="pp" src="https://user-images.githubusercontent.com/44245211/137956581-f5631100-799c-427b-a74c-61fccb2ecddb.png">
+
 
