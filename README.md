@@ -1,7 +1,7 @@
 # Sentiments Evoked by WHO Public Health Posts during COVID-19 Pandemic: A Neural Network based Machine learning Analysis
 Since the establishment of the WHO in 1948, it has played a pivotal role in improving public health all over the world. But in 2019, with the onset of COVID-19, the WHO, for the first time, faced a pandemic of such a mamothian magnitude and global span. Spanning 220 region and with over 200 Million reported cases (as of Aug’21), it has been the biggest public health crisis since the inception of the WHO. The spread of the virus and the perceived inability of the WHO to contain it has raised many questions about its efficacy and need. Thus with the present study we attempt to explore the range of sentiment and emotions evoked by public health information posts by the WHO on its official Facebook page throughout the pandemic. 
 _________________________________________________________________________________________________________________________________________________________________
-# Methods
+# Methods used in the Study
 
 <p align="center">
   <img width="644" alt="pipeline" src="https://user-images.githubusercontent.com/44245211/137946308-e01e26ff-e8c0-4a43-b012-d242faa5b5d7.png">
@@ -59,4 +59,8 @@ These graphs represent the raw results from the classifier. Each graph indicatin
 
 # Conclusions - Concerns & Suggestions
 - WHO is the only source of legally binding international regulations for pandemic response, and hence the establishment of its authority and integrity is paramount. WHO is an international public health watchdog but the apparent damage to its credibility, which is reflected by the current study, is alarming.
-- 
+- The enormity of the health crisis which led to isolation and economic crisis coupled with questionable information sources on social media and aspersions on credibility of WHO created a concoction such that even the innocuous public health information posts by WHO were misconstrued, generating an overall negativity in public psyche.<br /><br />
+- WHO should work on increasing its credibility with particular attention to transparency, political and business neutrality, and adapting evidence-based policy. WHO ought to be insulated from political and global strategic games.
+- During such a crisis it is very important to realise concerted efforts have to be made to address both the psychological and emotional well-being so as to uphold the public morale.
+
+
