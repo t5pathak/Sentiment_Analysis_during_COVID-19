@@ -1,6 +1,6 @@
 # Sentiments Evoked by WHO Public Health Posts during COVID-19 Pandemic: A Neural Network based Machine learning Analysis
 Since the establishment of the WHO in 1948, it has played a pivotal role in improving public health all over the world. But in 2019, with the onset of COVID-19, the WHO, for the first time, faced a pandemic of such a mamothian magnitude and global span. Spanning 220 region and with over 200 Million reported cases (as of Aug’21), it has been the biggest public health crisis since the inception of the WHO. The spread of the virus and the perceived inability of the WHO to contain it has raised many questions about its efficacy and need. Thus with the present study we attempt to explore the range of sentiment and emotions evoked by public health information posts by the WHO on its official Facebook page throughout the pandemic. 
-
+_________________________________________________________________________________________________________________________________________________________________
 # Methods
 
 <p align="center">
@@ -49,6 +49,14 @@ This flow diagram explains the basic working of the classifier. We hand labelled
 These graphs represent the raw results from the classifier. Each graph indicating the number of posts classified in each sentiment category. Although the graphs allow us to observe domination for negative sentiments, we can’t compare the results across time periods. Hence, we use another metric - percentage of posts.
 
 ### Sentiment Evolution - percentage of posts
-<img width="607" alt="pp" src="https://user-images.githubusercontent.com/44245211/137956581-f5631100-799c-427b-a74c-61fccb2ecddb.png">
+<img width="430" alt="pp" src="https://user-images.githubusercontent.com/44245211/137956721-254b43e6-3842-4b6f-82bd-c3f51906611e.png">
 
+# Inferences
+- We see that the posts received an overwhelmingly negative response and among the negative sentiments, anger dominated in all three timeframes. As we saw previously the negative sentiments peak in the T2 time period. 
+- Further analysis of comments tell us that the negative sentiments where directed primarily towards the WHO, governments and other influential personalities. On the other hand, positive comments were expressed primarily towards health workers.
+- Angry individuals tend to misconstrue false claims to be scientifically credible which might lead to vaccine hesitancy that may severely compromise the fight against COVID-19.
+- Mass media & social media has contributed to the spread of misinformation and denial of scientific literature.
 
+# Conclusions - Concerns & Suggestions
+- WHO is the only source of legally binding international regulations for pandemic response, and hence the establishment of its authority and integrity is paramount. WHO is an international public health watchdog but the apparent damage to its credibility, which is reflected by the current study, is alarming.
+- 
