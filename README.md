@@ -27,6 +27,9 @@ We first defined 3 timeframes of 5 months each, starting from March 2020. We cho
 - Post-6 (or P6) depicted an animation asserting the role of COVAX in managing COVID. Through the post the WHO urged that even with the introduction of the vaccines “no one is safe till everyone is safe”. [LINK](https://www.facebook.com/watch/?v=1012908982851652)
 
 ## Data labelling - labels used
+<p align="center">
+  <img width="871" alt="data" src="https://user-images.githubusercontent.com/44245211/137949226-5bbe6f93-3128-46de-a5da-b00e91e37570.png">
+  </p>
 The data was labelled into five categories which encompassed a broad range of positive and negative emotions associated with the comments. The labels are shown in the bubbles with example comments above them.
 - Angry labelled as A consisted of Hateful and angry comments
 - Concerned sentiments labelled as B consisted of negatively sarcastic comments and comments displaying emotions of concern
