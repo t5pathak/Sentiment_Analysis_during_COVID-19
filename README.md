@@ -54,17 +54,3 @@ These graphs represent the raw results from the classifier. Each graph indicatin
 
 ### Sentiment Evolution - percentage of posts
 <img width="430" alt="pp" src="https://user-images.githubusercontent.com/44245211/137956721-254b43e6-3842-4b6f-82bd-c3f51906611e.png">
-
-# Inferences
-- We see that the posts received an overwhelmingly negative response and among the negative sentiments, anger dominated in all three timeframes. As we saw previously the negative sentiments peak in the T2 time period. 
-- Further analysis of comments tell us that the negative sentiments where directed primarily towards the WHO, governments and other influential personalities. On the other hand, positive comments were expressed primarily towards health workers.
-- Angry individuals tend to misconstrue false claims to be scientifically credible which might lead to vaccine hesitancy that may severely compromise the fight against COVID-19.
-- Mass media & social media has contributed to the spread of misinformation and denial of scientific literature.
-
-# Conclusions - Concerns & Suggestions
-- WHO is the only source of legally binding international regulations for pandemic response, and hence the establishment of its authority and integrity is paramount. WHO is an international public health watchdog but the apparent damage to its credibility, which is reflected by the current study, is alarming.
-- The enormity of the health crisis which led to isolation and economic crisis coupled with questionable information sources on social media and aspersions on credibility of WHO created a concoction such that even the innocuous public health information posts by WHO were misconstrued, generating an overall negativity in public psyche.<br /><br />
-- WHO should work on increasing its credibility with particular attention to transparency, political and business neutrality, and adapting evidence-based policy. WHO ought to be insulated from political and global strategic games.
-- During such a crisis it is very important to realise concerted efforts have to be made to address both the psychological and emotional well-being so as to uphold the public morale.
-
-
